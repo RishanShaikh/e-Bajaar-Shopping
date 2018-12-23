@@ -1,0 +1,129 @@
+.menu{
+	overflow:hidden;
+	border:1px bold #333;
+	background-color:#333333;
+	padding: 10px 10px 10px 10px;
+	margin: 0 0 10px 0;
+	height: 70px;
+	width: 100%;
+}
+
+.menu .logo
+{
+color:#FF0000;
+background-color:#99CC33;
+float:left;
+padding: 2px 2px 2px 2px;
+margin-top: 10px;
+	  margin-bottom:10px;
+	  margin-left: 10px;
+	  font-size: 35px;
+}
+.menu button {
+	  background-color:#0066CC;
+	  float: left;
+	  border: none;
+	  outline: none;
+	  cursor: pointer;
+	  margin-top: 25px;
+	  margin-bottom:10px;
+	  margin-left: 10px;
+	  padding: 2px 2px 2px 2px;
+	  transition: 0.3s;
+	  color:#FFFFFF;
+	  font-size: 15px;
+}
+
+.menu .search input[type=text] {
+	  float: right;
+	  padding: 2px 2px 2px 2px;
+	  border:none;
+	  margin-top: 25px;
+	  margin-bottom:10px;
+	  margin-right: 10px;
+	  font-size: 15px;
+}
+
+.menu .search button{
+	 float:right;
+	 margin-bottom:10px;
+	 margin-top:25px;
+	 margin-right:20px;
+}
+
+.menu button:hover {
+	  color:#CCCCCC;
+}
+
+.menu button.active {
+	  background-color: #ccc;
+}
+
+.login{
+	align-content: center;
+		padding:0 330px;
+		margin-bottom:20px;
+		height:inherit;
+}
+
+.login input[type=text], input[type=password]{
+    font-size:17px;
+	text-align:center;
+	width:300px;
+	height:27px;
+	float:left;
+	padding:10px 15px 10px 15px;
+	margin-top: 15px;
+	margin-bottom:15px;
+	margin-left: 30%;
+}
+.login input[type=submit]{
+	align-content: center;
+	text-align:center;
+	margin-top: 10px;
+	margin-bottom:10px;
+	margin-left:47%;
+	padding:10px 20px 10px 20px;
+	float:left;
+	border: 1px solid #ccc;
+	background-color:#333333;
+	color:#FFFFFF;
+}
+.login input[type=submit]:hover {
+	  color:#CCCCCC;
+}
+
+body
+{
+background-color:#CCCCCC;
+}
+.content{
+position:absolute;
+float:left;
+background-color:#FFFFFF;
+margin-top:0;
+margin-left:0;
+margin-right:0;
+padding:20px 20px 20px 20px;
+width: 100%;
+height:inherit;
+}
+
+.footer{
+font-family:"Times New Roman", Times, serif;
+text-align:center;
+background-color:#EAEAEA;
+margin-top: 500px;
+padding:20px 300px 5px 300px;
+}
+
+table{
+	margin-left: 34%;
+}
+th{
+	border-style: solid;
+}
+td{
+	border-style: solid;
+	text-align: center;
+}
